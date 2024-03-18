@@ -1,2 +1,2 @@
 # yusiali.com
-Personal website, hosted on Github Pages
+Personal website hosted on Github Pages
