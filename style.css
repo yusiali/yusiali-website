@@ -629,6 +629,10 @@ nav .fa-solid{
     margin-left: 0;
   }
 
+  .container h4{
+    font-size: 23px;
+  }
+
 
   nav ul{
     background:rgba(66, 37, 104, 0.949);
