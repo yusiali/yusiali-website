@@ -901,7 +901,7 @@ nav .fa-solid{
   .container h4{
     display: block;
     width: 140px;
-    margin-left: 80px;
+    margin-left: 90px;
     text-align: center;
     position: relative;
     font-size: 23px;
@@ -909,10 +909,10 @@ nav .fa-solid{
   }
   #header{
     background-image: url(images/mobileBackground.svg);
-    height: 700px;
+    height: 650px;
   }
   .header-text{
-    margin-top: 300px;
+    margin-top: 280px;
     margin-left: -110px;
   }
   .header-text h1{
