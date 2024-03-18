@@ -55,9 +55,7 @@ nav ul{
   display: inline-block;
   list-style-type: none;
   padding: auto;
-  position: relative;
-  margin-right: -600px;
-  margin-top: -100px;
+  position: absolute;
 }
 
 .logo {
@@ -100,7 +98,7 @@ nav ul li a::after{
   font-family:Basis Grotesque Pro Light;
   font-size: 35px;
   font-weight: 20;
-  margin-top: 210px;
+  margin-top: 320px;
   margin-left: 100px;
   position: absolute;
 }
@@ -110,7 +108,7 @@ nav ul li a::after{
 
 .header-text h1{
   font-family:Basis Grotesque Pro Regular;
-  margin-top: 270px;
+  margin-top: 380px;
   font-size: 50px;
   text-align: left;
   font-weight: 600;
