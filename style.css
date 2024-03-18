@@ -544,7 +544,7 @@ nav .fa-solid{
 .container h4{
   display: none;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 376px){
   nav li h2{
     display: none;
   }
@@ -713,9 +713,186 @@ nav .fa-solid{
   }
 }
 
+nav .fa-solid{
+  display: none;
+}
+.container h4{
+  display: none;
+}
+@media only screen and (max-width: 391px){
+  nav li h2{
+    display: none;
+  }
+  .container h4{
+    display: block;
+    width: 140px;
+    margin-left: 95px;
+    text-align: center;
+    position: relative;
+    font-size: 23px;
+    margin-top: -35px;
+  }
+  #header{
+    background-image: url(images/mobileBackground.svg);
+    height: 700px;
+  }
+  .header-text{
+    margin-top: 300px;
+    margin-left: -110px;
+  }
+  .header-text h1{
+    font-size: 20px;
+    margin-right: 55px;
+    margin-top: -30px;
+    font-weight: 600;
+    font-family: Basis Grotesque Pro Regular;
+  }
+  .header-text h1 span{
+    font-size: 20px;
+  }
+  nav .fa-solid{
+    display:block;
+  }
+  .header-text h2{
+    font-size: 16px;
+    margin-right: 155px;
+    margin-top: -60px;
+    font-weight: 100;
+    font-family: Basis Grotesque Pro Light;
+  }
+  .header-text h2 span{
+    font-family:Basis Grotesque Pro light;
+  }
+
+  nav .fa-solid{
+    display: block;
+    font-size: 20px;
+  }
+  nav i.fa-solid{
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+  }
+  
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+    padding: auto;
+    position: absolute;
+  }
+  
+  .logo {
+    width: 140px;
+    text-align: center;
+    position: relative;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 74px 20px;
+  }
+  
+  nav ul li a.Blog{
+    margin-left: 0;
+  }
+
+
+  nav ul{
+    background:rgba(66, 37, 104, 0.949);
+    position: fixed;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top: -23px;
+    left: -75px;
+    cursor: pointer;
+  }
+
+  .sub-title{
+    font-size: 35px;
+  }
+  .about-col-2 p{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .about-col-1, .about-col-2{
+    padding-right: -100px;
+    flex-basis: 100%;
+  }
+  .about-col-1{
+    margin-bottom: 25px;
+  }
+  .about-col-1 img{
+    width: 50%;
+    border-radius: 5px;
+  }
+  .about-col-2 p{
+    font-family: Basis Grotesque Pro Regular;
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .tab-titles p{
+    font-family: Basis Grotesque Pro Bold;
+    font-weight: 300;
+    margin-right: 30px;
+  }
+  .tab-contents ul li h1{
+    margin-right: 90px;
+    font-size: 15px;
+    font-family: Basis Grotesque Pro Regular;
+  }
+  .tab-contents ul li p{
+    font-family: Basis Grotesque Pro Regular;
+    font-size: 14px;
+    list-style: none;
+    margin: 0px 0;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+
+  tab-links{
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  #contact{
+    margin-top: 110px;
+  }
+  .contact-left, .contact-right{
+    flex-basis: 100%;
+  }
+
+  .copyright{
+    font-size: 11px;
+  }
+}
+
 #msg{
   color:#52fe6f;
   font-family: Basis Grotesque Pro Regular;
   margin-top: -40px;
   display: block;
 }
+
