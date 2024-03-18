@@ -554,7 +554,7 @@ nav .fa-solid{
     margin-left: 90px;
     text-align: center;
     position: relative;
-    font-size: 24px;
+    font-size: 23px;
     margin-top: -35px;
   }
   #header{
@@ -627,10 +627,6 @@ nav .fa-solid{
   
   nav ul li a.Blog{
     margin-left: 0;
-  }
-
-  .container h4{
-    font-size: 23px;
   }
 
 
