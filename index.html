@@ -3,7 +3,394 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">    
+    <title>Yusuf Ali</title><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">    
     <title>Yusuf Ali</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7b5c78211.js" crossorigin="anonymous"></script>
+    <link href="https://db.onlinewebfonts.com/c/852be80a3188170a0c4ebb2534efb54d?family=PexicoMicro-Regular" rel="stylesheet"> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <h4><div class="line-1 anim-typewriter">yusuf.ali</div></h4>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#header"class="Home"glitch="Home" style="color: #52fe6f;">Home</a></li>
+                    <li><a href="#about"glitch="About" style="color: #52fe6f;">About</a></li>
+                    <li><a href="#projects"class="projects"glitch="Projects" style="color: #52fe6f;" >Projects</a></li>
+                    <li><h2><div class="line-1 anim-typewriter">yusuf.ali</div></h2></li>
+                    <li><a href="#blog"class="Blog"glitch="Ideas" style="color: #52fe6f;" >Ideas</a></li>
+                    <li><a href="#music"class="Music"glitch="Music" style="color: #52fe6f;" >Music</a></li>
+                    <li><a href="#contact"glitch="Contact" style="color: #52fe6f;" class="contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <ul id="sideMenu">
+                    <li><a href="#header"onclick="closeMenu()"class="Home"glitch="Home" style="color: #52fe6f;">Home</a></li>
+                    <li><a href="#about"onclick="closeMenu()"glitch="About" style="color: #52fe6f;">About</a></li>
+                    <li><a href="#projects"onclick="closeMenu()"class="projects"glitch="Projects" style="color: #52fe6f;" >Projects</a></li>
+                    <li><h2><div class="line-1 anim-typewriter">yusuf.ali</div></h2></li>
+                    <li><a href="#blog"onclick="closeMenu()"class="Blog"glitch="Ideas" style="color: #52fe6f;" >Ideas</a></li>
+                    <li><a href="#music"onclick="closeMenu()"class="Music"glitch="Music" style="color: #52fe6f;" >Music</a></li>
+                    <li><a href="#contact"onclick="closeMenu()"glitch="Contact" style="color: #52fe6f;" class="contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>     
+            </nav>
+            <div class="header-text">
+                <h2 class="text1"><span></span></h2>
+                <h1>Passionate about <br> all things <span class="text2"></span></h1>
+            </div>
+        </div>        
+    </div>
+<!---about--->   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="wrapper">
+                        <img class="mySlides" src="images/Headshot1.jpg">
+                        <img class="mySlides" src="images/Baby pic.jpg">
+                        <img class="mySlides" src="images/BikeRide.jpg">
+                        <img class="mySlides" src="images/Headshot2.jpg">
+                        <img class="mySlides" src="images/Camera.jpg">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Yusuf! I study computer science at Texas A&M and have a passion for computers. I aspire to use my interest in coding and machine learning to make healthcare more affordable and accessible.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Honors')">Honors</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>2022 - Present</span><br><h1>Curriculum Developer & Instructor @ LearnToBot</h1></li>
+                                <li><p>✦ Teaching 100+ students how to build and code problem-solving robots in our weekly camps.</p>
+                                <li><p>✦ Designing and testing projects for students to build in future classes.</p></li>
+                                <li><p>✦ Hosting robotics camps for Destination Imagination teams in our community.<br><br></p></li>
+                            <li><span>2021 - Present</span><br><h1>Administrative Assistant @ muse mantra school of music & arts</h1></li>
+                                <li><p>✦ Assisted in developing the school website <a href="https://www.musemantra.com" target="_blank">(www.musemantra.com)</a> and currently building a web application to streamline the student registration process.</p>
+                                <li><p>✦ Organizing quarterly audits of the school database to analyze student enrollment and retention.<br><br></p></li>
+                            <li><span>June 2022 - July 2022</span><br><h1>Robotic Surgery Intern @ Laredo Sports Medicine Clinic</h1></li>
+                                <li><p>✦ Developed machine learning algorithms for Stryker Mako surgical machines and worked with departments in the clinic including research and development, physical training, and marketing.</p>
+                                <li><p>✦ Met with professionals involved in the biotechnology industry from Texas A&M International University.<br><br></p></li>
+                            <li><span>Sep. 2018 - May 2019</span><br><h1>Storekeeper @ Saudi Aramco Shuf Shop Charity</h1></li>
+                                <li><p>✦ Responsible for finding contributors, assisting customers, and sorting donations around the store. </p>
+                                <li><p>✦ Used the store's earnings to distribute a year's worth of foodstuffs and kitchenware to 100+ local workers!</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>B.S. in Computer Science @ Texas A&M University</li>
+                                <li><p><span>Involvements:</span> Lead Programmer of Student Engineering Organization, TAMU Club Soccer Athlete<br><br></p>
+                            <li><span>2019 - 2023</span><br>The Woodlands High School</li>
+                                <li><p><span>Involvements:</span> Secretary of TWHS Model United Nations,  Head of Committees of TWHS Key Club, TWHS DECA Competitor, Outreach Lead of TWHS Robotics, National Honor Society Member, TWHS Track & Field Athlete<br><br></p>
+                            <li><span>2020 - 2022</span><br>Python @ SuperX Learning</li>
+                                <li><p>Learned the foundations of Python objects and classes, built web scraping tools to automate tasks, and developed mini-games using procedural generation.<br><br></p>
+                                </ul>
+                    </div>
+                    <div class="tab-contents" id="Honors">
+                        <ul>
+                            <li><span>Global Finals: 3rd Place Award - June 2023</span><br>Destination Imagination</li>
+                                <li><p>Our LearnToBot Destination Imagination team received this award for placing 3rd in the Fine Arts Challenge at Destination Imagination’s annual competition. To achieve this award, our team’s project also won its district and state competitions.<br><br></p>
+                            <li><span>The Woodforest Bank Triathlon Finisher - May 2023</span><br>The Woodlands Township Parks and Recreation Department</li>
+                                <li><p>I received this award for completing The Woodforest Bank TRI. The triathlon consisted of a 500-meter open swim, a 12.8-mile bike ride, and a 5-kilometer run.<br><br></p>
+                            <li><span>UTCS Robotics Champion - Aug. 2022</span><br>The University of Texas at Austin Department of Computer Science</li>
+                                <li><p>I achieved this award for ranking first place in UT Austin's annual robotics competition. This event consisted of building and coding a robocar to traverse through a race track in the fastest time possible.<br><br></p>
+                            <li><span>NHSMUN Award of Distinction in Research & Preparation - March 2022</span><br>National High School Model United Nations</li>
+                                <li><p>Our club was selected for this honor based on research papers we had written for the NHSMUN 2022 Conference.<br><br></p>
+                            <li><span>NHSMUN Award of Merit - March 2022</span><br>National High School Model United Nations</li>
+                                <li><p>My team was recognized for this honor based on our individual performance during the NHSMUN 2022 Conference.<br><br></p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----services-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-regular fa-clock fa-spin fa-lg"></i>
+                <h2>Nixie Tube Watch</h2>
+                <p><span>Objective:</span> Build an analog watch from scratch using cathode ray Nixie tubes from the 1950s.</p>
+                        <ul><p>✦ Designed printed circuit boards to keep the form factor of the watch as compact as possible.</p></ul>
+                        <ul><p>✦ Created a Qi standard charging module for the watch to charge wirelessly.</p></ul>
+                        <ul><p>✦ Built the watch case using resin and CNC-cut glass.</p></ul>
+                        <ul><p>✦ Programmed the time functions of the watch in C.</p></ul>
+                    <a href="#" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-medical fa-lg"></i>
+                <h2>CVS Health Searcher</h2>
+                <p><span>Objective:</span> Code a web-scraping bot that searches through CVS Health for articles matching specific keywords. CVS Health’s webpage did not have a native search bar at the time, so this bot made it easier for my grandfather to read specific articles.</p>
+                    <ul><p>✦ Utilized Python’s BeautifulSoup library to grab data directly from CVS Health.</p></ul>
+                <a href="#" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code fa-lg"></i>
+                <h2>Obscure: The Game</h2>
+                <p>A 2-D video game I made for my younger brother, Obscure follows an exterminator as he battles maggots to keep his family safe.</p>
+                <ul><p>✦ Incorporated AI to procedurally generate maps and spawn critters in random locations at each play of the game.</p></ul>
+                <ul><p>✦ Allowed enemies to gradually learn player habits through machine learning.</p></ul>
+                <a href="#" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---blog-->
+<div id="blog">
+    <div class="container">
+        <h1 class="sub-title">Ideas</h1>
+        <div class="blog-list">
+            <div class="blog">
+                
+                <a href="#"><img src="images/IMG_2193.jpg" alt=""></a>
+                <div class="layer">
+                    <h3><a href="#">Blog 2 Title</a></h3>                    <p>Description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="blog">
+                <a href="#"><img src="images/Baby pic.jpg" alt=""></a>
+                <div class="layer">
+                    <h3><a href="#">Blog 2 Title</a></h3>
+                    <p>Description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="blog">
+                <a href="#"><img src="images/nameLogo.png" alt=""></a>
+                <div class="layer">
+                    <h3><a href="#">Blog 2 Title</a></h3>
+                    <p>Description</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--music-->
+<div id="music">
+    <div class="container">
+        <h1 class="sub-title">Yusi.fm   <i class="fa-solid fa-compact-disc fa-spin fa-sm"></i></h1>
+        <div class="spotifyPlaylist">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3RlXgmWRkzWF6UdLkQk4RT?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i>yusi.ali3@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/yusiali1/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/yusiali/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="https://github.com/yusiali" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+                    <a href="http://www.youtube.com/@yusufali2974" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/11mYQ_yZVdJblB83dc05NC2smzjTbGtjZ/view?usp=sharing" target="_blank" class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Yusuf Ali 2024. Made with HTML, CSS, JS, & <i class="fa-solid fa-heart"></i>.</p>
+    </div>
+</div>
+
+<!--image slideshow-->
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 9000);    
+    }
+</script>
+
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabName){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sideMenu = document.getElementById("sideMenu");
+    
+    function openMenu(){
+        sideMenu.style.right = "0";
+    }
+    function closeMenu(){
+        sideMenu.style.right = "-150px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzt4e9cz8OYfOepZG2WG9F3Era2JjTTEAvui1ksMUcn5yEx6qsXRgT274kh5J6rnqUUJA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<!--word scramble effect-->
+<script>
+    class TextScramble {
+  constructor(el) {
+    this.el = el
+    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.update = this.update.bind(this)
+  }
+  setText(newText) {
+    const oldText = this.el.innerText
+    const length = Math.max(oldText.length, newText.length)
+    const promise = new Promise((resolve) => this.resolve = resolve)
+    this.queue = []
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || ''
+      const to = newText[i] || ''
+      const start = Math.floor(Math.random() * 40)
+      const end = start + Math.floor(Math.random() * 40)
+      this.queue.push({ from, to, start, end })
+    }
+    cancelAnimationFrame(this.frameRequest)
+    this.frame = 0
+    this.update()
+    return promise
+  }
+  update() {
+    let output = ''
+    let complete = 0
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i]
+      if (this.frame >= end) {
+        complete++
+        output += to
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar()
+          this.queue[i].char = char
+        }
+        output += `<span class="dud">${char}</span>`
+      } else {
+        output += from
+      }
+    }
+    this.el.innerHTML = output
+    if (complete === this.queue.length) {
+      this.resolve()
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update)
+      this.frame++
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)]
+  }
+}
+
+// ——————————————————————————————————————————————————
+// Example
+// ——————————————————————————————————————————————————
+
+const phrases1 = [
+  'Coding by day,',
+  'developing by night'
+]
+
+const el1 = document.querySelector('.text1')
+const fx1 = new TextScramble(el1)
+
+let counter1 = 0
+const next1 = () => {
+  fx1.setText(phrases1[counter1]).then(() => {
+    setTimeout(next1, 4000)
+  })
+  counter1 = (counter1 + 1) % phrases1.length
+}
+
+next1()
+
+const p = [
+  'computers','music', 'soccer'
+]
+
+const el2 = document.querySelector('.text2')
+const fx2 = new TextScramble(el2)
+
+let counter2 = 0
+const nextww = () => {
+  fx2.setText(p[counter2]).then(() => {
+    setTimeout(nextww, 1000)
+  })
+  counter2 = (counter2 + 1) % p.length
+}
+
+nextww()
+</script>
+
+
+</body>
+</html>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
